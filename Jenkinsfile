@@ -3,7 +3,6 @@ node() {
     stage('prepare') {
         checkout scm
         setupCommonPipelineEnvironment script:this
-        piper version
     }	
     stage('abapLint') {
 		dockerExecute(script: this, dockerImage: 'abaplint/abaplint:latest'){
