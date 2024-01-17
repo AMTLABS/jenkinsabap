@@ -1,4 +1,4 @@
 general:
-     gitSshKeyCredentialsId: 'GitHub (Token)'x
+     gitSshKeyCredentialsId: 'GitHub (Token)'
      verbose: true
      productiveBranch: develop
